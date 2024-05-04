@@ -1,0 +1,111 @@
+{
+  "uid" : "585a407a50a7d7e6",
+  "name" : "updateAuthorizedUserDataTest",
+  "fullName" : "clients.user.updatedata.ClientUpdateDataTest.updateAuthorizedUserDataTest",
+  "historyId" : "d513c973f5f162191b5f8395701355cf",
+  "time" : {
+    "start" : 1714822238775,
+    "stop" : 1714822240840,
+    "duration" : 2065
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Подготовка тестовых данных",
+      "time" : {
+        "start" : 1714822238776,
+        "stop" : 1714822239657,
+        "duration" : 881
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка успешного изменения данных авторизованного пользователя",
+      "time" : {
+        "start" : 1714822239657,
+        "stop" : 1714822240003,
+        "duration" : 346
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Удаление созданного тестового пользователя",
+      "time" : {
+        "start" : 1714822240003,
+        "stop" : 1714822240840,
+        "duration" : 837
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "clients.user.updatedata"
+  }, {
+    "name" : "testClass",
+    "value" : "clients.user.updatedata.ClientUpdateDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "updateAuthorizedUserDataTest"
+  }, {
+    "name" : "suite",
+    "value" : "clients.user.updatedata.ClientUpdateDataTest"
+  }, {
+    "name" : "host",
+    "value" : "RDO-AO-NB-019"
+  }, {
+    "name" : "thread",
+    "value" : "26384@RDO-AO-NB-019.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "585a407a50a7d7e6.json",
+  "parameterValues" : [ ]
+}
