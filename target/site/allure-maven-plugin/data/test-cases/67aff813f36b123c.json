@@ -1,0 +1,111 @@
+{
+  "uid" : "67aff813f36b123c",
+  "name" : "loginWithIncorrectDataTest",
+  "fullName" : "clients.user.login.ClientLoginTest.loginWithIncorrectDataTest",
+  "historyId" : "c1f5e2e6f29a065a6c05d727d6a03784",
+  "time" : {
+    "start" : 1714822230339,
+    "stop" : 1714822231671,
+    "duration" : 1332
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Подготовка тестовых данных",
+      "time" : {
+        "start" : 1714822230339,
+        "stop" : 1714822230681,
+        "duration" : 342
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка ошибки при логине пользователя с неверным логином и паролем",
+      "time" : {
+        "start" : 1714822230681,
+        "stop" : 1714822230932,
+        "duration" : 251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Удаление созданного тестового пользователя",
+      "time" : {
+        "start" : 1714822230932,
+        "stop" : 1714822231671,
+        "duration" : 739
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "clients.user.login"
+  }, {
+    "name" : "testClass",
+    "value" : "clients.user.login.ClientLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithIncorrectDataTest"
+  }, {
+    "name" : "suite",
+    "value" : "clients.user.login.ClientLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "RDO-AO-NB-019"
+  }, {
+    "name" : "thread",
+    "value" : "26384@RDO-AO-NB-019.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67aff813f36b123c.json",
+  "parameterValues" : [ ]
+}

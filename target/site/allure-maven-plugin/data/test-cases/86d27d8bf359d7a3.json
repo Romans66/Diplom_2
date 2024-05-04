@@ -1,0 +1,111 @@
+{
+  "uid" : "86d27d8bf359d7a3",
+  "name" : "unauthorizedCreateOrderWithoutIngredientsTest",
+  "fullName" : "clients.order.createorder.CreateOrderTest.unauthorizedCreateOrderWithoutIngredientsTest",
+  "historyId" : "afc0b845dd07227c07697c49ef8d3c67",
+  "time" : {
+    "start" : 1714822209238,
+    "stop" : 1714822214146,
+    "duration" : 4908
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Подготовка тестовых данных",
+      "time" : {
+        "start" : 1714822209261,
+        "stop" : 1714822213134,
+        "duration" : 3873
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка оформления заказа под неавторизованным пользователем без ингредиентов",
+      "time" : {
+        "start" : 1714822213134,
+        "stop" : 1714822213378,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Удаление созданного тестового пользователя",
+      "time" : {
+        "start" : 1714822213379,
+        "stop" : 1714822214144,
+        "duration" : 765
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "clients.order.createorder"
+  }, {
+    "name" : "testClass",
+    "value" : "clients.order.createorder.CreateOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "unauthorizedCreateOrderWithoutIngredientsTest"
+  }, {
+    "name" : "suite",
+    "value" : "clients.order.createorder.CreateOrderTest"
+  }, {
+    "name" : "host",
+    "value" : "RDO-AO-NB-019"
+  }, {
+    "name" : "thread",
+    "value" : "26384@RDO-AO-NB-019.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "86d27d8bf359d7a3.json",
+  "parameterValues" : [ ]
+}

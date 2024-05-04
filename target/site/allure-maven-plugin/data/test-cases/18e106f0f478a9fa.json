@@ -1,0 +1,111 @@
+{
+  "uid" : "18e106f0f478a9fa",
+  "name" : "unauthorizedCreateOrderWithIncorrectIngredientTest",
+  "fullName" : "clients.order.createorder.CreateOrderTest.unauthorizedCreateOrderWithIncorrectIngredientTest",
+  "historyId" : "527b4b2d579baa5437079551e484c645",
+  "time" : {
+    "start" : 1714822215909,
+    "stop" : 1714822217586,
+    "duration" : 1677
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Подготовка тестовых данных",
+      "time" : {
+        "start" : 1714822215909,
+        "stop" : 1714822216611,
+        "duration" : 702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка оформления заказа под неавторизованным пользователем с ингредиентом с неверным хешем",
+      "time" : {
+        "start" : 1714822216611,
+        "stop" : 1714822216875,
+        "duration" : 264
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Удаление созданного тестового пользователя",
+      "time" : {
+        "start" : 1714822216875,
+        "stop" : 1714822217585,
+        "duration" : 710
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "clients.order.createorder"
+  }, {
+    "name" : "testClass",
+    "value" : "clients.order.createorder.CreateOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "unauthorizedCreateOrderWithIncorrectIngredientTest"
+  }, {
+    "name" : "suite",
+    "value" : "clients.order.createorder.CreateOrderTest"
+  }, {
+    "name" : "host",
+    "value" : "RDO-AO-NB-019"
+  }, {
+    "name" : "thread",
+    "value" : "26384@RDO-AO-NB-019.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18e106f0f478a9fa.json",
+  "parameterValues" : [ ]
+}
